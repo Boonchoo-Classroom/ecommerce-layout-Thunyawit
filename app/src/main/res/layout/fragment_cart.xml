@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.CartFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="173dp"
+            android:layout_height="176dp"
+            android:layout_marginTop="84dp"
+            android:src="@android:drawable/star_big_on"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.067"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="173dp"
+            android:layout_height="176dp"
+            android:layout_marginTop="508dp"
+            android:src="@android:drawable/star_big_on"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.067"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="173dp"
+            android:layout_height="176dp"
+            android:layout_marginTop="296dp"
+            android:src="@android:drawable/star_big_on"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.067"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ราคา 300 บาท"
+            tools:layout_editor_absoluteX="262dp"
+            tools:layout_editor_absoluteY="132dp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ราคา 300 บาท"
+            tools:layout_editor_absoluteX="263dp"
+            tools:layout_editor_absoluteY="321dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ราคา 300 บาท"
+            tools:layout_editor_absoluteX="263dp"
+            tools:layout_editor_absoluteY="536dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="สั่งซื้อ"
+            tools:layout_editor_absoluteX="261dp"
+            tools:layout_editor_absoluteY="172dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="สั่งซื้อ"
+            tools:layout_editor_absoluteX="261dp"
+            tools:layout_editor_absoluteY="361dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="สั่งซื้อ"
+            tools:layout_editor_absoluteX="263dp"
+            tools:layout_editor_absoluteY="578dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
